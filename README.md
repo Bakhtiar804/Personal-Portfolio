@@ -19,7 +19,6 @@ Hi, I'm **Bakhtiar Ahmed**, a passionate Frontend Developer focused on building 
 * HTML5
 * CSS3
 * JavaScript (ES6+)
-* React.js
 * Bootstrap
 * Ant Design
 
@@ -71,8 +70,9 @@ cd portfolio
 
 Run the project using Live Server in Visual Studio Code or simply open index.html in your browser.
 
-```
 ## 📁 Project Structure
+
+```text
 portfolio/
 │
 ├── assets/
@@ -83,7 +83,6 @@ portfolio/
 └── README.md
 ```
 
-```
 ## 📬 Contact
 
 📧 Email: [bakhtiarahmed44204@gmail.com](mailto:bakhtiarahmed44204@gmail.com)
@@ -92,7 +91,7 @@ portfolio/
 
 🐙 GitHub: https://github.com/bakhtiar804
 
-🌍 Portfolio:  https://portfolio-bakhtiar-ahmed-804.netlify.app/
+🌍 Portfolio: https://portfolio-bakhtiar-ahmed-804.netlify.app/
 
 ---
 
