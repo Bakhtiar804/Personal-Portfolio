@@ -10,9 +10,6 @@ Hi, I'm **Bakhtiar Ahmed**, a passionate Frontend Developer focused on building 
 
 ## 🔗 Live Demo :  https://portfolio-bakhtiar-ahmed-804.netlify.app/
 
-**Portfolio Website:**
-https://your-portfolio-link.netlify.app
-
 ---
 
 ## 🛠️ Tech Stack
@@ -134,13 +131,13 @@ portfolio/
 
 ## 📬 Contact
 
-📧 Email: [your-email@example.com](mailto:your-email@example.com)
+📧 Email: [bakhtiarahmed44204@gmail.com](mailto:bakhtiarahmed44204@gmail.com)
 
-💼 LinkedIn: https://linkedin.com/in/your-profile
+💼 LinkedIn: https://www.linkedin.com/in/bakhtiar-ahmed-31655037a/
 
-🐙 GitHub: https://github.com/your-username
+🐙 GitHub: https://github.com/bakhtiar804
 
-🌍 Portfolio: https://your-portfolio-link.netlify.app
+🌍 Portfolio:  https://portfolio-bakhtiar-ahmed-804.netlify.app/
 
 ---
 
