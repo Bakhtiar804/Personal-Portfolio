@@ -71,7 +71,7 @@ cd portfolio
 
 Run the project using Live Server in Visual Studio Code or simply open index.html in your browser.
 
-
+```
 ## 📁 Project Structure
 portfolio/
 │
@@ -83,7 +83,7 @@ portfolio/
 └── README.md
 ```
 
-
+```
 ## 📬 Contact
 
 📧 Email: [bakhtiarahmed44204@gmail.com](mailto:bakhtiarahmed44204@gmail.com)
