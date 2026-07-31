@@ -57,73 +57,29 @@ Hi, I'm **Bakhtiar Ahmed**, a passionate Frontend Developer focused on building 
 * 💼 LinkedIn Clone
 * 🎨 Personal Portfolio
 
----
-
-## 📸 Preview
-
-> Add a screenshot of your portfolio here.
-
-```text
-assets/
-└── portfolio-preview.png
-```
-
-Then use:
-
-```md
-![Portfolio Preview](./assets/portfolio-preview.png)
-```
 
 ---
-
-## 📥 Installation
+## 📥 Getting Started
 
 Clone the repository:
 
-```bash
 git clone https://github.com/your-username/portfolio.git
-```
 
-Navigate into the project:
+Open the project folder:
 
-```bash
 cd portfolio
-```
 
-Install dependencies (if using React):
+Run the project using Live Server in Visual Studio Code or simply open index.html in your browser.
 
-```bash
-npm install
-```
-
-Run the development server:
-
-```bash
-npm start
-```
-
-Build for production:
-
-```bash
-npm run build
-```
-
----
 
 ## 📁 Project Structure
-
-```text
 portfolio/
 │
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── App.jsx
-│   └── main.jsx
-│
-├── package.json
+├── assets/
+├── css/
+├── js/
+├── index.html
+├── favicon.ico
 └── README.md
 ```
 
