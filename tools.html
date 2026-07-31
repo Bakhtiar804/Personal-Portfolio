@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakhtiar Ahmed-Tools</title>
+    <link rel="icon" href="./assets/favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <style>
+        .class {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .tools-title {
+            text-align: center;
+        }
+
+        .footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="parent">
+            <div class="home-icon" onclick="homeRedirect()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="var(--token-182ee8b3-4984-4a8e-9e60-5c8c5b4cb4cf, rgb(255, 255, 255))" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" style="width: 100%; height: 100%;">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+            </div>
+            <div onclick="projectRedirect()" class="project-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="var(--token-182ee8b3-4984-4a8e-9e60-5c8c5b4cb4cf, rgb(255, 255, 255))" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" style="width: 100%; height: 100%;">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+            </div>
+            <div onclick="experienceRedirect()" class="experience-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="var(--token-182ee8b3-4984-4a8e-9e60-5c8c5b4cb4cf, rgb(255, 255, 255))" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" style="width: 100%; height: 100%;">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+            </div>
+            <!-- <a href="#tools">  -->
+            <div id="tools-icon" class="tools-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="var(--token-182ee8b3-4984-4a8e-9e60-5c8c5b4cb4cf, rgb(255, 255, 255))" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" style="width: 100%; height: 100%;">
+                    <path
+                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+                    </path>
+                </svg>
+            </div>
+            <!-- </a> -->
+
+            <div onclick="contactRedirect()" class="thoughts-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="var(--token-182ee8b3-4984-4a8e-9e60-5c8c5b4cb4cf, rgb(255, 255, 255))" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" style="width: 100%; height: 100%;">
+                    <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                    <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                </svg>
+            </div>
+        </div>
+    </header>
+    <div class="class">
+        <div id="tools" class="tools-container">
+            <h1 class="tools-title">
+                <span class="title-premium">PREMIUM</span>
+                <span class="title-tools">TOOLS</span>
+            </h1>
+
+            <div class="grid">
+                <!-- Vs Code -->
+                <div class="tool-card">
+                    <div class="icon-box" style="background-color: #fff;">
+
+                        <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/vscode.svg" alt="">
+                    </div>
+                    <div>
+                        <div class="tool-name">Vs Code</div>
+                        <div class="tool-desc">Code Editor</div>
+                    </div>
+                </div>
+
+                <!-- Github -->
+                <div class="tool-card">
+                    <div class="icon-box" style="background-color: #fff;">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"><!--!Font Awesome Free v7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                            <path
+                                d="M280.5 426.5C214.5 418.5 168 371 168 309.5C168 284.5 177 257.5 192 239.5C185.5 223 186.5 188 194 173.5C214 171 241 181.5 257 196C276 190 296 187 320.5 187C345 187 365 190 383 195.5C398.5 181.5 426 171 446 173.5C453 187 454 222 447.5 239C463.5 258 472 283.5 472 309.5C472 371 425.5 417.5 358.5 426C375.5 437 387 461 387 488.5L387 540.5C387 555.5 399.5 564 414.5 558C505 523.5 576 433 576 321C576 179.5 461 64 319.5 64C178 64 64 179.5 64 321C64 432 134.5 524 229.5 558.5C243 563.5 256 554.5 256 541L256 501C249 504 240 506 232 506C199 506 179.5 488 165.5 454.5C160 441 154 433 142.5 431.5C136.5 431 134.5 428.5 134.5 425.5C134.5 419.5 144.5 415 154.5 415C169 415 181.5 424 194.5 442.5C204.5 457 215 463.5 227.5 463.5C240 463.5 248 459 259.5 447.5C268 439 274.5 431.5 280.5 426.5z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="tool-name">Github </div>
+                        <div class="tool-desc">Proprietary Developer Platform</div>
+                    </div>
+                </div>
+
+
+                <!-- Bootstrap -->
+                <div class="tool-card">
+                    <div class="icon-box" style="background-color: #fff;">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"><!--!Font Awesome Free v7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                            <path
+                                d="M365.5 265.4C365.5 243.3 349.9 231.1 322.5 231.1L272.1 231.1L272.1 302.3L314.6 302.3C347.4 302.2 365.5 289 365.5 265.4zM549 252.6C539.5 221.7 538.1 183.8 539.2 154.5C540.3 124 516.5 96 484.5 96L155.7 96C123.6 96 99.9 124.1 101 154.5C102 183.8 100.7 221.7 91.2 252.6C81.6 283.6 65.5 303.2 39 305.7L39 334.2C65.4 336.7 81.6 356.3 91.2 387.3C100.7 418.2 102.1 456.1 101 485.4C99.9 515.9 123.7 543.9 155.7 543.9L484.4 543.9C516.5 543.9 540.2 515.8 539.1 485.4C538.1 456.1 539.4 418.2 548.9 387.3C558.5 356.3 574.6 336.7 601 334.2L601 305.7C574.7 303.2 558.5 283.6 549 252.6zM332.2 439.1L234.3 439.1L234.3 200.8L331.7 200.8C375 200.8 403.4 224.2 403.4 260.2C403.4 285.5 384.3 308.1 359.9 312L359.9 313.3C393.1 316.9 415.4 339.9 415.4 371.6C415.4 413.7 384.1 439.1 332.2 439.1zM322.2 330.4L272.1 330.4L272.1 408.8L324.4 408.8C358.6 408.8 376.7 395.1 376.7 369.3C376.7 343.6 358.1 330.4 322.2 330.4z" />
+                        </svg>
+                    </div>
+                    <div>
+
+                        <div class="tool-name">BootStrap</div>
+                        <div class="tool-desc">CSS Library</div>
+                    </div>
+                </div>
+
+                <!-- Gsap -->
+                <div class="tool-card">
+                    <div class="icon-box" style="background-color: #fff;">
+                        <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/gsap-light.svg" alt="">
+                    </div>
+                    <div>
+                        <div class="tool-name">Gsap</div>
+                        <div class="tool-desc">Animation Tool</div>
+                    </div>
+                </div>
+
+                <!-- Firebase -->
+                <div class="tool-card">
+                    <div class="icon-box" style="background-color: #FFFFFF;">
+                        <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/firebase.svg" alt="">
+                    </div>
+                    <div>
+                        <div class="tool-name">Firebase</div>
+                        <div class="tool-desc">Database Or Authentication</div>
+                    </div>
+                </div>
+                <!-- ChatGPT -->
+                <div class="tool-card">
+                    <div class="icon-box" style="background-color: #fff;">
+                        <img src="	https://framerusercontent.com/images/MViiiLyIvL8tvy7d1XtOsM32o.png" alt="">
+                    </div>
+                    <div>
+                        <div class="tool-name">ChatGPT</div>
+                        <div class="tool-desc">AI Assistant</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+   
+    <script src="app.js"></script>
+</body>
+
+</html>
