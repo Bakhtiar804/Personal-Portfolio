@@ -1140,6 +1140,12 @@ video {
         min-height: 180px;
     }
 
+    .container-dev .card {
+        height: auto;
+        min-height: 0;
+        overflow: visible;
+    }
+
     /* ── Section titles ── */
     .title,
     .heading-exp,
