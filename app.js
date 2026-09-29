@@ -731,7 +731,7 @@ if (submitBtn) {
 
 let ecoProject  = document.querySelector('#eco-project')
 let maintainenceProject  = document.querySelector('#maintainence-project')
-let musicProject  = document.querySelector('#music-project')
+let musicProject  = document.querySelector('#music-web')
 
 
 if(ecoProject){
